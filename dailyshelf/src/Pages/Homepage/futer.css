@@ -9,6 +9,11 @@
 
 }
 
+.Title_name{
+    display: flex;
+    flex-direction: column;
+}
+
 .logo_white{
     margin: 10px;
 }

@@ -7,7 +7,7 @@ export default function Step3(){
     const navigate = useNavigate();
   
     const onSubmit = () => {
-        navigate("../home/step3");
+        navigate("../../todos");
     };
     return(
         <>

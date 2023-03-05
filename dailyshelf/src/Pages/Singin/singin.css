@@ -23,7 +23,7 @@ span{
 }
 
 
-input {
+.data_input {
   border: 0px;
   width:350px;
 	height:55px;

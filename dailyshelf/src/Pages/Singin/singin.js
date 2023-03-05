@@ -22,7 +22,7 @@ const navigate = useNavigate();
 const handleClick = () => {
     store.login(username, password)
     console.log(store.isAuth.toString())
-    if (store.isAuth === true){      
+    if (!store.isAuth === true){      
       navigate("/home");
     }
    
@@ -49,7 +49,7 @@ const {register, formState: {errors, isValid}} = useForm({ mode:"onBlur"})
               <span  className="e3_6897">Username or email address</span>
                 <div className='ei3_6899_1_1035'>
                    
-                    <input 
+                    <input className="data_input"
 // @ts-ignore
                     onChange={e=>setUsername(e.target.value)} {...register('username',{required:" Это поле обязательно", 
                                                       minLength: {value: 4, message: " Логин должен быть длиннее"}})} 
@@ -59,7 +59,7 @@ const {register, formState: {errors, isValid}} = useForm({ mode:"onBlur"})
                     <span  className="e3_6898">Password</span>
                     <div className='password'>
                      
-                    <input 
+                    <input className="data_input"
 // @ts-ignore
                     onChange={e=>setPassword(e.target.value)} {...register('password',{required:" Это поле обязательно", 
                                                       minLength: {value: 4, message: " Пароль должен быть длиннее"}})} 
