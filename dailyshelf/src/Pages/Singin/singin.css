@@ -43,29 +43,7 @@ input {
     align-content: space-between;
     flex-wrap: wrap;
 }
-
-button{
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border: 0px;
-  background-color:rgba(96.00000187754631, 93.00000205636024, 236.00000113248825, 1);
-	/* width:685px;
-	height:64px; */
-	/* position:absolute; */
-	left:31px;
-	top:337px;
-  display: flex;
-	border-radius:4px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  position: relative;
-  justify-content: space-around;
-  align-items: center
-}
-
-button:focus{
+.ei6_1793_3_6922_1_3106:focus{
   background-color:rgb(220, 20, 197)
 }
 
@@ -80,9 +58,27 @@ button:focus{
 	text-align:center;
 	font-size:20px;
 	letter-spacing:0;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: 0px;
+	background-color:rgba(96.00000187754631, 93.00000205636024, 236.00000113248825, 1);
+	  /* width:685px;
+	  height:64px; */
+	  /* position:absolute; */
+	  left:31px;
+	  top:337px;
+	display: flex;
+	  border-radius:4px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	position: relative;
+	justify-content: space-around;
+	align-items: center
 }
 
-button:hover {
+.ei6_1793_3_6922_1_3106:hover {
   border: 1px solid;
   background-color: #F6F5FF; /* Green */
   color: #605DEC;

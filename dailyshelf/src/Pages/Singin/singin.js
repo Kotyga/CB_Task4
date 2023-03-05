@@ -67,7 +67,7 @@ const {register, formState: {errors, isValid}} = useForm({ mode:"onBlur"})
                     {errors.password && <span className="error_text">{errors.password.message}</span>}
                     </div>   
                   </div>  
-                  <button onClick={()=>handleClick()} type='submit' className="ei6_1793_3_6922_1_3106">Log In</button>
+                  <button onClick={(e)=>handleClick(e)} type='submit' className="ei6_1793_3_6922_1_3106">Log In</button>
                   <span  className="ei3_6903_1_1144_1_1023">Forgot password</span>   
                 </div>
                   
