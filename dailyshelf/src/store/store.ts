@@ -26,7 +26,7 @@ class Store{
         try{
             const response = await AuthServise.login(username, password)
             localStorage.setItem('token', response.data.accessToken)
-            this.isAuth = true
+            this.setAuth(true)
             this.setUser(response.data.user)
 
         } catch(e){
