@@ -22,7 +22,7 @@ const navigate = useNavigate();
 const handleClick = () => {
     store.login(username, password)
     console.log(store.isAuth.toString())
-    if (store.isAuth == true){      
+    if (store.isAuth === true){      
       navigate("/home");
     }
    
