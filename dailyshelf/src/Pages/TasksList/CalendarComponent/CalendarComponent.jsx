@@ -5,14 +5,18 @@ import './CalendarComponent.css'
 
 
 function CalendarComponent(props) {
-  const [date, setDate] = useState(new Date());
 
+const [date, setDate] = useState(new Date())
+
+  const addTasksToCalendar = ( ) => {
+
+  }
 
   return (    
       <div className='calendar'>
-        <Calendar onChange={setDate} value={date} 
+        <Calendar  onChange={setDate} value={date} 
 // @ts-ignore
-        onClickDay={''}/>
+        onClickDay={''} tileContent={addTasksToCalendar}/>
       </div>    
   )
 }
