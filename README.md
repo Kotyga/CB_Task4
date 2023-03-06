@@ -3,7 +3,9 @@ The task was completed as part of the course "No-code clustering of texts" from 
 ## Time = [25.02.2023 - 05.03.2023]
 Write an interface to the back-end of the application. As a tool, you need to use the React library.
 Task completion condition:
+
 1.The interface must interact with the back-end server API.
+
 2. The application must:
 - Get a list of all existing tasks (add a new task)
 - Go to a specific task (change, delete a task)
